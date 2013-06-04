@@ -1,9 +1,4 @@
-var win = Titanium.UI.createWindow({
-  title : 'Stop Watch',
-	modal : true,
-	backgroundColor : 'white'
-});
-win.open();
+var win = Ti.UI.currentWindow;
 
 var TimerLabel = Ti.UI.createLabel({
 	text : '00:00',
